@@ -42,13 +42,25 @@ The improved CNN achieved the highest observed accuracy in these experiments.
 
 ## Installation
 
-**Requirements:** Python 3.13 or another compatible Python version.
+**Requirements:** Python 3.13 and Git.
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/kevhuang34/MNIST-Digit_Recognizer.git
 cd MNIST-Digit_Recognizer
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate the virtual environment (Windows PowerShell):
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
 Install dependencies:
@@ -59,15 +71,15 @@ python -m pip install -r requirements.txt
 
 ## Running the Application
 
-Launch the drawing application:
+Launch the application:
 
 ```bash
 python app.py
 ```
 
-Draw a digit on the canvas and click **Predict** to view the predicted digit and confidence scores.
+Draw a digit and click **Predict** to see the model's prediction and confidence scores.
 
-Click **Clear** to reset the canvas.
+Click **Clear** to erase your drawing.
 
 The repository includes `mnist_cnn.pth`, so training is not required to run the application.
 
