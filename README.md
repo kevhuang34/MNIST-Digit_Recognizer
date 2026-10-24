@@ -47,8 +47,8 @@ The improved CNN achieved the highest observed accuracy in these experiments.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/kevhuang34/MNIST-Digit_Recognizer.git
+cd MNIST-Digit_Recognizer
 ```
 
 Install dependencies:
